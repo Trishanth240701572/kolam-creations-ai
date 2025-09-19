@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -38,6 +39,16 @@ export default {
         accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
+          soft: "hsl(var(--accent-soft))",
+        },
+        therapeutic: {
+          DEFAULT: "hsl(var(--therapeutic))",
+          foreground: "hsl(var(--therapeutic-foreground))",
+          soft: "hsl(var(--therapeutic-soft))",
+        },
+        traditional: {
+          DEFAULT: "hsl(var(--traditional))",
+          foreground: "hsl(var(--traditional-foreground))",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
